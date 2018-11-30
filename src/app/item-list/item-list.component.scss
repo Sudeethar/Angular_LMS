@@ -1,0 +1,24 @@
+#item {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 150px;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+#item td, #item th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#item tr:nth-child(even){background-color: #e6e6e6;}
+
+#item tr:hover {background-color: #ddd;}
+
+#item th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(40, 200, 40);
+    color: white;
+}
